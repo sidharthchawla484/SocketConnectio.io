@@ -28,6 +28,7 @@ mongoose
 // testing in server to check commiting and push
 // now commenting form other branch
 // new freatyrebranch
+// this is from othernew branch
 server.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
