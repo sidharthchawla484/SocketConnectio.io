@@ -24,7 +24,7 @@ mongoose
   .connect("mongodb://127.0.0.1:27017/socket-user")
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.error("MongoDB Connection Error:", err));
-
+// changes from testing branch to merge all in main branch 
 // testing in server to check commiting and push
 server.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
