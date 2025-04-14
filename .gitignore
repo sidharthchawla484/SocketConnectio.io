@@ -1,0 +1,15 @@
+# Node modules (heavy & regenerated)
+node_modules/
+
+# Environment secrets
+.env
+
+# Editor-specific
+.vscode/
+
+# Logs & system files
+npm-debug.log*
+.DS_Store
+
+# Optional
+package-lock.json
