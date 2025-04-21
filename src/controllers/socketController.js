@@ -3,13 +3,11 @@ const jwt = require("jsonwebtoken")
 const userModel = require("../models/user-model")
 
 const Group = require("../models/group-model")  
-
 // creating group
 exports.createGroup = async (req, res) => {
     try {
         const { mobile } = req.body;  
         const user = await userModel.findOne({ mobile });
-
         if (!user) {
             return res.status(400).json({ msg: "User not found" }); 
         }

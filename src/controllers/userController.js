@@ -2,7 +2,6 @@ const jwt = require("jsonwebtoken")
 const userModel = require("../models/user-model")
 const bcrypt = require("bcrypt")
 const moment = require("moment")
-
 // signup
 exports.signup = async (req, res) => {
     try {
